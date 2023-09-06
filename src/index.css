@@ -7,3 +7,16 @@
 *{
     /* border: 1px solid red; */
 }
+
+
+/* Example CSS */
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; /* Adjust the z-index as needed */
+    background-color: white; /* Customize the background color */
+    /* Add any additional styles for your sticky navbar */
+  }
+  

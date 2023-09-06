@@ -1,0 +1,5 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: var(600px);
+    /* background-color: yellow; */
+}

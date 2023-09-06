@@ -5,7 +5,7 @@ import Socal from '../assets/img/social.png'
 
 function Footer() {
   return (
-    <div className='flex flex-col lg:flex-row justify-start lg:justify-center gap-14 lg:gap-32 bg-bg-main text-white p-14'>
+    <div className='flex flex-col md:flex-row justify-start md:justify-center gap-14 lg:gap-32 bg-bg-main text-white p-14'>
 
         <div className='flex flex-col justify-between gap-4'>
             <img className='h-10 w-24' src={Logo} />

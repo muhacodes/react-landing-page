@@ -8,7 +8,7 @@ import img3 from "../assets/img/Rectangle 2.png";
 function Project() {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-center items-center p-10 md:p-20">
+      <div id="projects" className="flex flex-col md:flex-row justify-center items-center p-10 md:p-20">
         <div className="flex relative  w-[20rem] md:w-[30rem] h-[30rem]">
           <img className="absolute top-0 left-0 h-20 w-14" src={reddot} />
           <img className="absolute top-5 left-10 h-4/5 w-2/3" src={img1} />

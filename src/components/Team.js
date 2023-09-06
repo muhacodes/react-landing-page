@@ -6,7 +6,7 @@ import red from "../assets/img/Group.png";
 
 function Team() {
   return (
-    <div className="relative py-10">
+    <div id="team" className="relative py-28">
       <h2 className="text-red-500 font-medium text-3xl text-center">
         Meet our Team
       </h2>

@@ -4,7 +4,7 @@ import img2 from "../assets/img/Group 17.png";
 
 function Services() {
   return (
-    <div className="flex flex-col pt-10 md:p-20 justify-center items-center text-center bg-bg-main text-white">
+    <div id="services" className="flex flex-col py-10 md:p-28 justify-center items-center text-center bg-bg-main text-white">
       <h2 className="text-red-500 font-medium text-3xl text-center">
         Our Services
       </h2>

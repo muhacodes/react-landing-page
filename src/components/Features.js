@@ -9,7 +9,7 @@ import redDot from "../assets/img/Group.png";
 
 function Features() {
   return (
-    <div className="py-28">
+    <div id="about" className="py-28">
       <h2 className="text-red-500 font-medium text-3xl text-center">
         {" "}
         Meet our Team{" "}
@@ -18,7 +18,7 @@ function Features() {
         {" "}
         Awesome Service With Our Tools{" "}
       </h3>
-      <div className="flex flex-col md:flex-row justify-center text-center items-center gap-5 md:gap-20">
+      <div className="flex flex-col md:flex-row justify-center text-center items-center gap-5 lg:gap-16">
         <div className="">
           <img className="mx-auto" src={icon1} alt="Icon 1" />
           <h3 className="font-bold my-4">App Development</h3>
@@ -46,7 +46,7 @@ function Features() {
           </p>
         </div>
       </div>
-      f
+      
       <div className="flex flex-col md:flex-row justify-center items-center mt-20 gap-28">
         <div className="flex relative gap-4 w-80 h-72">
           <img className="absolute left-12 top-0 h-2/3" src={img1} />
